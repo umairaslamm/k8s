@@ -4,12 +4,6 @@
 ### Minikube
 Source: https://github.com/kubernetes/minikube
 
-Advanced topics: https://github.com/kubernetes/minikube/tree/master/docs
-
-Private registries: https://github.com/kubernetes/minikube/blob/master/docs/insecure_registry.md
-
-Addons: https://github.com/kubernetes/minikube/blob/master/docs/addons.md
-
 `minikube addons list`
 
 Specify kubernetes version
@@ -17,8 +11,6 @@ Specify kubernetes version
 `minikube start --kubernetes-version=v1.28.3`
 
 ### kubeadm
-Usage: https://kubernetes.io/docs/admin/kubeadm/#usage
-
 Limitations: https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#limitations
 
 CNCF networks: https://kubernetes.io/docs/concepts/cluster-administration/addons/
@@ -29,11 +21,7 @@ Blog on kubeadm initialization: https://www.ianlewis.org/en/how-kubeadm-initiali
 
 
 ### Kops
-Kops Docs: https://github.com/kubernetes/kops/blob/master/docs/aws.md
-
-HA Cluster: https://github.com/kubernetes/kops/blob/master/docs/high_availability.md#advanced-example
-
-Kops features: https://github.com/kubernetes/kops/blob/master/docs/commands.md#other-interesting-modes
+Kops Docs: https://github.com/kubernetes/kops/tree/master
 
 
 ### Dashboard
@@ -44,12 +32,6 @@ Project page: https://github.com/kubernetes/dashboard
 Dashboard Wiki: https://github.com/kubernetes/dashboard/wiki
 
 Dashboard access control: https://github.com/kubernetes/dashboard/wiki/Access-control#login-view
-
-
-### kubefed
-What is kubefed: http://blog.kubernetes.io/2016/12/cluster-federation-in-kubernetes-1.5.html
-
-Setup kubefed: https://kubernetes.io/docs/tasks/federation/set-up-cluster-federation-kubefed/
 
 
 ### Kompose
@@ -63,9 +45,9 @@ Architecture: http://kompose.io/architecture/
 
 
 ### Helm
-Helm charts: https://github.com/kubernetes/helm/blob/master/docs/charts.md
+[Helm charts](https://github.com/helm/helm/tree/main)
 
-Stable charts: https://github.com/kubernetes/charts/tree/master/stable
+[Stable charts](https://github.com/helm/charts/tree/master/stable)
 
 
 ### Conclusion
