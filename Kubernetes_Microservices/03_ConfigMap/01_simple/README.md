@@ -13,14 +13,14 @@ Switch namespace
 Get pods info
 
 `kubectl get pods`
-
+```
 (17:06:55 on main ✭)──> kubectl get pods 
 
 NAME                                   READY   STATUS    RESTARTS   AGE
 wishlist-deployment-8487c4555c-msbtx   3/3     Running   0          50s
 wishlist-deployment-8487c4555c-vd6hp   3/3     Running   0          50s
 wishlist-deployment-8487c4555c-wgmcg   3/3     Running   0          50s
-
+```
 Exec into the auth container in the wishlist pod with a command like:
 
 `kubectl exec -it wishlist-<podid> -c wishlist bash`
